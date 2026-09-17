@@ -11,8 +11,8 @@
  */
 public class HelloYou {
     public static void main(String[] args) {
-         System.out.println("Joey Faks");
-         System.out.println("10th grade");
-         System.out.println("I love school");
+         System.out.println("------------");
+         System.out.println("| Joey Faks |");
+         System.out.println("------------");
     }
 }
