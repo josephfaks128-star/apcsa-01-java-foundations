@@ -19,6 +19,8 @@ public class BusinessCard {
     public static void main(String[] args) {
 
         // One println. Just one.
+        System.out.println("+--------------------------------+\n|\tJoey Faks\t\t|\n|\tStudent Developer\t|\n|\t\t\t\t|\n|github.com/Joey-Faks\t|\n+--------------------------------+ ");
+
 
     }
 }
