@@ -1,22 +1,19 @@
-/**
- * Exercise 7 — AboutMe
- *
- * TODO: Declare and initialize at least one variable of EACH type:
- *     int, double, boolean, char, String
- *
- * Then print each one with a descriptive label.
- *
- * Requirements:
- *   - Use camelCase names
- *   - Names must be descriptive (favoriteNumber, not x)
- *   - Include at least one `final` constant in ALL_CAPS
- */
+
 public class AboutMe {
     public static void main(String[] args) {
+        int favoriteNumber = 7;
+        double favoriteDecimal = 3.14;
+        boolean likesCoding = true;
+        char favoriteGrade = 'A';
+        String favoriteSubject = "Computer Science";
 
-        // Declare your variables here
+        final int BIRTH_YEAR = 2010;
 
-        // Print them with labels here
-
+        System.out.println("Favorite Number: " + favoriteNumber);
+        System.out.println("Favorite Decimal: " + favoriteDecimal);
+        System.out.println("Likes Coding: " + likesCoding);
+        System.out.println("Favorite Grade: " + favoriteGrade);
+        System.out.println("Favorite Subject: " + favoriteSubject);
+        System.out.println("Birth Year: " + BIRTH_YEAR);
     }
 }
